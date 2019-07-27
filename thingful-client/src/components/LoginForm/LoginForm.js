@@ -35,7 +35,7 @@ export default class LoginForm extends Component {
         return (
         <form
             className='LoginForm'
-            onSubmit={this.handleSubmitBasicAuth}
+            onSubmit={this.handleSubmitJwtAuth}
         >
             <div role='alert'>
             {error && <p className='red'>{error}</p>}
